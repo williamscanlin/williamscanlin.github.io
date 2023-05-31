@@ -2,7 +2,9 @@
     position: relative;
     display: block;
     border-radius: 13%;
-    max-width: 375px;
+    border-color: black;
+    border-width: 20px;
+    max-width: 275px;
     width: auto;
     height: auto;
 }
