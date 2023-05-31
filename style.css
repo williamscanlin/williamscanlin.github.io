@@ -1,0 +1,36 @@
+.me{
+    position: relative;
+    display: block;
+    border-radius: 13%;
+    max-width: 375px;
+    width: auto;
+    height: auto;
+}
+
+
+#about-me {
+    color: black; /* for example, if needed at all */
+    /* ...and anything else for content in this section */    
+}
+
+.project {
+    color: black; /* for example, if needed at all */
+    /* ...and anything else for content inside this section */
+}
+
+/* one for each unique project, below, for example... */
+#project1of3 {
+    color: black; /* for example, if needed at all */
+    /* ...and anything else for content inside this article */
+}
+
+#project2of3 {
+    color: black; /* for example, if needed at all */
+    /* ...and anything else for content inside this article */
+}
+
+#project3of3 {
+    color: black; /* for example, if needed at all */
+    /* ...and anything else for content inside this article */
+}
+/* one for each unique project, above, for example */
