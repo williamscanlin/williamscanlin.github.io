@@ -34,7 +34,7 @@ function loadGame() {
 }
 
 function resetGame() {
-  if (confirm("Are you sure you wat to loose all your donuts ?")){
+  if (confirm("Are you sure you want to lose all your donuts ?")){
     var gameSave = {};
     localStorage.setItem("gameSave", JSON.stringify(gameSave));
     location.reload();
