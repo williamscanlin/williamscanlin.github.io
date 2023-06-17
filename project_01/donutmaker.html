@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css\style.css">
     <title>Donut Clicker</title>
   </head>
 
@@ -12,7 +12,13 @@
   <nav>
     <a href="http://williamscanlin.github.io">Meet The Developer</a>
     <a href="https://orteil.dashnet.org/cookieclicker/">My Inspiration -- Cookie Clicker</a>
-    <a href="#contactMe">Fred The Baker Baking Company</a>
+   
+      <div class="dropdown">
+      <button class="dropbtn">Fred the Baker Baking Company</button>
+      <div class="dropdown-content">
+        <a href="http://www.google.com">Just Google it</a>
+        <a href="https://en.wikipedia.org/wiki/Fred_the_Baker">Fred the Baker Wiki</a>
+    </div> 
 </nav>
 <main id = "mainPage">
   <div class="sectionLeft">
@@ -32,7 +38,7 @@
 <div class="sectionRight">
 <table class ="eStore unselectable" onclick="buyAutoClicker()">
   <tr>
-    <td id="image"><img src="css/Pinky.png"></td>
+    <td id="image"><img src="css\Pinky.png"></td>
     <td id="nameAndCost">
     <p>Pinky's Auto Clicker</p>
     <p><span id="autoClickerCost">100</span> Donuts</p>
@@ -42,7 +48,7 @@
 </table> 
 <table class ="eStore unselectable" onclick="buyAutoClickerPlus()">
 <tr>
-    <td id="image"><img src="css/Brain.png"></td>
+    <td id="image"><img src="css\Brain.png"></td>
     <td id="nameAndCost">
     <p>The Brain's Auto Clicker Plus</p>
     <p><span id="autoClickerPlusCost">500</span> Donuts</p>
@@ -52,7 +58,7 @@
 </table> 
 <table class ="eStore unselectable" onclick="buyAutoClickerTurbo()">
   <tr>
-      <td id="image"><img src="css/taz.jpg"></td>
+      <td id="image"><img src="css\taz.jpg"></td>
       <td id="nameAndCost">
       <p>Taz's Auto Clicker Turbo</p>
       <p><span id="autoClickerTurboCost">10000</span> Donuts</p>
@@ -76,10 +82,9 @@
           </td>
         </tr>
       </table>  
-
 </div>
 <div class ="sectionFooter">
-<h5>Donut Maker 5000 &copy; William Scanin 2023</h5>
+<h5>Donut Maker 5000 &copy; William Scanlin 2023</h5>
 </div>
 </main>
 <script src="app.js">
