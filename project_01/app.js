@@ -107,7 +107,7 @@ setInterval(function() {                           // auto clicker function base
   score = score + autoClicker;
   score = score + autoClickerPlus * 10;
   score = score + autoClickerTurbo * 500;
-  document.title = score + " Donuts - Donut Clicker 5000";                  //Displays score in tab
+  document.title = score + " Donuts - Donut Maker 5000";                  //Displays score in tab
   document.getElementById("score").innerHTML = "Donuts Made : "+ score;
 }, 1000);              // 1000 = 1 sec 
 
