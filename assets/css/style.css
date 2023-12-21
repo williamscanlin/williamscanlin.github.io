@@ -576,7 +576,7 @@ header .navbar ul li a:hover {
   
 }
 .education .box-container .box img {
-  object-fit: cover;
+  object-fit: contain;
   width: 60%;
   height: 60%;
   
