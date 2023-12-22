@@ -1,11 +1,11 @@
 [
     {
-      "name": "NotyStack Android",
-      "desc": "Fully fledged android CRUD app based on different design patterns. Built using Java, XML, SQLite, Firebase, RoomDB, MVVM.",
-      "image": "notystackandroid",
-      "category": "android",
+      "name": "Donut Maker 5000",
+      "desc": "Fully fledged clicker app. Built using Javascript, HTML5, CSS3.",
+      "image": "donutMaker5000",
+      "category": "mern",
       "links": {
-        "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
+        "view": "project_01/donutmaker.html",
         "code": "https://github.com/jigar-sable/notystack-android"
       }
     },
