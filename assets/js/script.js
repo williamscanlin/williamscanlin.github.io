@@ -37,22 +37,39 @@ $(document).ready(function () {
         }, 500, 'linear')
     });
 
-    // <!-- emailjs to mail contact form data -->
-    $("#contact-form").submit(function (event) {
-        emailjs.init("user_TTDmetQLYgWCLzHTDgqxm");
+    /// Assuming jQuery is included
 
-        emailjs.sendForm('contact_service', 'template_contact', '#contact-form')
-            .then(function (response) {
-                console.log('SUCCESS!', response.status, response.text);
-                document.getElementById("contact-form").reset();
-                alert("Form Submitted Successfully");
-            }, function (error) {
-                console.log('FAILED...', error);
-                alert("Form Submission Failed! Try Again");
-            });
-        event.preventDefault();
+// Form submission logic
+$("#contact-form").submit(function (event) {
+    // Prevent the default form submission
+    event.preventDefault();
+
+    // Extract form data
+    const formData = {
+        name: $("input[name='name']").val(),
+        email: $("input[name='email']").val(),
+        phone: $("input[name='phone']").val(),
+        message: $("textarea[name='message']").val(),
+    };
+
+    // Send POST request to AWS Lambda function
+    $.ajax({
+        url: 'https://kb1y8vlza1.execute-api.us-east-1.amazonaws.com', // Replace with your Lambda function endpoint
+        type: 'POST',
+        contentType: 'application/json',
+        data: JSON.stringify(formData),
+        success: function (response) {
+            console.log('Form submitted successfully:', response);
+            document.getElementById("contact-form").reset();
+            alert("Form Submitted Successfully");
+        },
+        error: function (error) {
+            console.log('Form submission failed:', error);
+            alert("Form Submission Failed! Try Again");
+        },
     });
-    // <!-- emailjs to mail contact form data -->
+});
+
 
 });
 
