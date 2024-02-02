@@ -54,7 +54,7 @@ $("#contact-form").submit(function (event) {
 
     // Send POST request to AWS Lambda function
     $.ajax({
-        url: 'https://kb1y8vlza1.execute-api.us-east-1.amazonaws.com', // Replace with your Lambda function endpoint
+        url: 'https://kb1y8vlza1.execute-api.us-east-1.amazonaws.com/contact', // Replace with your Lambda function endpoint
         type: 'POST',
         contentType: 'application/json',
         data: JSON.stringify(formData),
