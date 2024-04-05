@@ -142,17 +142,25 @@ document.addEventListener("DOMContentLoaded", function() {
       "hero6.png"
   ];
 
-  const randomIndex = Math.floor(Math.random() * heroImages.length);
-  const randomImage = heroImages[randomIndex];
-
   const heroImage = document.querySelector(".image img");
   console.log(heroImage); // Check the value of heroImage element
 
   if (heroImage) {
-      heroImage.setAttribute("src", `./assets/images/${randomImage}`);
+    const randomIndex = Math.floor(Math.random() * heroImages.length);
+    const randomImage = heroImages[randomIndex];
+    heroImage.setAttribute("src", `./assets/images/${randomImage}`);
+    heroImage.setAttribute("alt", "New Hero Image");
+    console.log("Hero image updated successfully");
+
+    heroImage.addEventListener("click", function() {
+      const newIndex = Math.floor(Math.random() * heroImages.length);
+      const newImage = heroImages[newIndex];
+      heroImage.setAttribute("src", `./assets/images/${newImage}`);
       heroImage.setAttribute("alt", "New Hero Image");
       console.log("Hero image updated successfully");
+    });
   } else {
       console.error("Hero image element not found");
   }
 });
+
