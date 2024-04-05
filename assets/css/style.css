@@ -332,8 +332,15 @@ header .navbar ul li a:hover {
   .socials {
     margin-top: 12rem;
   }
+  .home .content {
+    flex: 1 1 15px; /* Change the size to 5rem for smaller screens */
+  }
+ 
   .home .image img {
+    width: 65%; /* Adjust the width as needed for smaller screens */
+    margin-left: -20rem; /* Adjust the margin as needed for smaller screens */
     margin-top: -12rem;
+    margin-right: 10px;
   }
   .home .content p {
     font-size: 2.2rem;
@@ -344,6 +351,26 @@ header .navbar ul li a:hover {
 }
 /* hero media queries ends*/
 /* hero section end */
+
+
+
+@media screen and (max-width: 768px) {
+  .home .image {
+    flex: 1 1 13rem; /* Change the size to 5rem for smaller screens */
+  }
+  
+  .home .image img {
+    width: 100%; /* Adjust the width as needed for smaller screens */
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-right: 10px; /* Adjust the margin as needed for smaller screens */
+  }
+}
+
+
+
+
+
 
 /* about section starts */
 .about {
@@ -358,7 +385,7 @@ header .navbar ul li a:hover {
 }
 .about .row .image {
   text-align: center;
-  flex: 1 1 35rem;
+  flex: 1 1 3rem;
 }
 .about .row .image img {
   margin: 4rem;
@@ -442,7 +469,7 @@ header .navbar ul li a:hover {
   }
   .about .row .image img {
     margin: 0 auto;
-    width: 80%;
+    width: 40%;
     mix-blend-mode: normal;
   }
   .about .row {
