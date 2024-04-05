@@ -139,7 +139,12 @@ document.addEventListener("DOMContentLoaded", function() {
       "hero3.png",
       "hero4.png",
       "hero5.png",
-      "hero6.png"
+      "hero6.png",
+      "hero7.png",
+      "hero8.png",
+      "hero9.png",
+      "hero10.png",
+      "hero11.png"
   ];
 
   const heroImage = document.querySelector(".image img");
