@@ -131,3 +131,28 @@ particlesJS('particles-js',
   }
 
 );
+
+document.addEventListener("DOMContentLoaded", function() {
+  const heroImages = [
+      "hero1.png",
+      "hero2.png",
+      "hero3.png",
+      "hero4.png",
+      "hero5.png",
+      "hero6.png"
+  ];
+
+  const randomIndex = Math.floor(Math.random() * heroImages.length);
+  const randomImage = heroImages[randomIndex];
+
+  const heroImage = document.querySelector(".image img");
+  console.log(heroImage); // Check the value of heroImage element
+
+  if (heroImage) {
+      heroImage.setAttribute("src", `./assets/images/${randomImage}`);
+      heroImage.setAttribute("alt", "New Hero Image");
+      console.log("Hero image updated successfully");
+  } else {
+      console.error("Hero image element not found");
+  }
+});
