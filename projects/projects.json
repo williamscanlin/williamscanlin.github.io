@@ -8,5 +8,15 @@
         "view": "https://williamscanlin.com/projects/project_01/donutmaker.html",
         "code": "https://github.com/williamscanlin/donutclicker5000"
       }
+    },
+    {
+      "name": "Java Script Calculator",
+      "desc": "Fully fledged calculator app. Built using Javascript, HTML5, CSS3.",
+      "image": "donutMaker5000",
+      "category": "basicweb",
+      "links": {
+        "view": "https://williamscanlin.com/projects/project_02/calculator.html",
+        "code": "https://github.com/williamscanlin/donutclicker5000"
+      }
     }
   ]
