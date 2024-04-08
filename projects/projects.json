@@ -10,7 +10,7 @@
       }
     },
     {
-      "name": "Java Script Calculator",
+      "name": "A Simple Calculator",
       "desc": "Fully fledged calculator app. Built using Javascript, HTML5, CSS3.",
       "image": "calculator",
       "category": "basicweb",
@@ -20,7 +20,7 @@
       }
     },
     {
-      "name": "Java Script Calendar",
+      "name": "Calendar with event reminders",
       "desc": "Fully fledged calendar app. Built using Javascript, HTML5, CSS3.",
       "image": "calendar",
       "category": "basicweb",
