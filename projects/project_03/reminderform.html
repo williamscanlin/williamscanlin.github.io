@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Reminder</title>
+    <link rel="stylesheet" href="./css/reminder.css">
+</head>
+<body>
+    <h2>Add Reminder</h2>
+    <form id="reminder-form">
+        <label for="reminder-date">Date:</label>
+        <input type="text" id="reminder-date" name="reminder-date" readonly>
+        <br>
+        <label for="reminder-description">Description:</label>
+        <textarea id="reminder-description" name="reminder-description"></textarea>
+        <br>
+        <button type="button" onclick="addReminder()">Add Reminder</button>
+    </form>
+
+    <script>
+        // Retrieve the date from the query parameter
+        const urlParams = new URLSearchParams(window.location.search);
+        const date = urlParams.get('date');
+
+        // Populate the date input with the retrieved date
+        document.getElementById('reminder-date').value = date;
+
+        function addReminder() {
+            const reminderDate = document.getElementById('reminder-date').value;
+            const reminderDescription = document.getElementById('reminder-description').value;
+
+            if (reminderDate && reminderDescription) {
+                // Close the window and pass the reminder data back to the main window
+                window.opener.addReminder(reminderDate, reminderDescription);
+                window.close();
+            } else {
+                alert('Please enter both date and description for the reminder.');
+            }
+        }
+    </script>
+</body>
+</html>

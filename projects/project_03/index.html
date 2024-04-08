@@ -8,6 +8,14 @@
 </head>
 <body>
     <div id="calendar"></div>
-    <script src="app.js"></script>
+    <div id="reminder-form" class="hidden">
+        <h2>Add Reminder</h2>
+        <label for="reminder-time">Time:</label>
+        <input type="time" id="reminder-time">
+        <label for="reminder-description">Description:</label>
+        <textarea id="reminder-description"></textarea>
+        <button onclick="addReminder()">Save Reminder</button>
+    </div>
+    <script src="./app.js"></script>
 </body>
 </html>
