@@ -56,7 +56,7 @@ function addReminder(date, description) {
 
 function showReminderForm(day) {
     const reminderDate = `${new Date().getFullYear()}-${new Date().getMonth() + 1}-${day}`;
-    const reminderFormURL = `reminderForm.html?date=${reminderDate}`;
+    const reminderFormURL = `projects/project_03/reminderForm.html?date=${reminderDate}`;
     window.open(reminderFormURL, '_blank', 'width=400,height=400');
 }
 
