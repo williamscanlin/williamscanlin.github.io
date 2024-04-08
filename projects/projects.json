@@ -12,21 +12,21 @@
     {
       "name": "Java Script Calculator",
       "desc": "Fully fledged calculator app. Built using Javascript, HTML5, CSS3.",
-      "image": "donutMaker5000",
+      "image": "calculator",
       "category": "basicweb",
       "links": {
         "view": "https://williamscanlin.com/projects/project_02/calculator.html",
-        "code": "https://github.com/williamscanlin/donutclicker5000"
+        "code": "https://github.com/williamscanlin/calculator"
       }
     },
     {
-      "name": "Java Script Calender",
-      "desc": "Fully fledged calender app. Built using Javascript, HTML5, CSS3.",
-      "image": "donutMaker5000",
+      "name": "Java Script Calendar",
+      "desc": "Fully fledged calendar app. Built using Javascript, HTML5, CSS3.",
+      "image": "calendar",
       "category": "basicweb",
       "links": {
         "view": "https://williamscanlin.com/projects/project_03/index.html",
-        "code": "https://github.com/williamscanlin/donutclicker5000"
+        "code": "https://github.com/williamscanlin/calendar"
       }
     }
   ]
