@@ -25,7 +25,7 @@ document.addEventListener('visibilitychange',
         }
         else {
             document.title = "Come Back To Portfolio";
-            $("#favicon").attr("href", "/assets/images/favhand.png");
+            $("#favhand").attr("href", "/assets/images/favhand.png");
         }
     });
 
