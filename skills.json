@@ -41,7 +41,7 @@
     },
     {
         "name": "TailwindCSS",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/48px-Tailwind_CSS_Logo.png",
+        "icon": "https://img.icons8.com/color/48/tailwindcss.png",
         "description": "Tailwind CSS is a utility-first CSS framework that provides a set of low-level utility classes to build custom designs without writing custom CSS. It allows developers to rapidly prototype and style their applications by composing utility classes directly in HTML."
     },
     {
@@ -148,5 +148,30 @@
         "name": "WordPress",
         "icon": "https://img.icons8.com/color/48/000000/wordpress.png",
         "description": "WordPress is a free and open-source content management system (CMS) based on PHP and MySQL. It is widely used for creating websites, blogs, and online stores due to its ease of use, flexibility, and extensive ecosystem of themes and plugins."
+    },
+    {
+        "name": "Kali Linux",
+        "icon": "https://img.icons8.com/plasticine/48/kali-linux.png",
+        "description": "Kali Linux is a Debian-based Linux distribution aimed at advanced penetration testing and security auditing. It comes pre-installed with numerous penetration testing tools and is widely used by cybersecurity professionals and enthusiasts."
+    },
+    {
+        "name": "Ubuntu",
+        "icon": "https://img.icons8.com/color/48/ubuntu--v1.png",
+        "description": "Ubuntu is a popular Linux distribution known for its user-friendly interface and stability. It is based on Debian and offers a wide range of software packages, making it suitable for both desktop and server environments."
+    },
+    {
+        "name": "Wireshark",
+        "icon": "https://img.icons8.com/nolan/48/wireshark--v1.png",
+        "description": "Wireshark is a network protocol analyzer used for network troubleshooting, analysis, development, and education. It allows users to capture and interactively browse the traffic running on a computer network."
+    },
+    {
+        "name": "VirtualBox",
+        "icon": "https://img.icons8.com/color/48/virtualbox.png",
+        "description": "VirtualBox is a powerful open-source virtualization software that enables users to run multiple operating systems simultaneously on a single physical machine. It is commonly used for testing, development, and virtualization."
+    },
+    {
+        "name": "VMWare",
+        "icon": "https://img.icons8.com/fluency/48/old-vmware-logo.png",
+        "description": "VMWare is a leading provider of virtualization and cloud computing software and services. It offers a range of products for virtualization, including VMWare Workstation, VMWare Fusion, and VMWare vSphere, catering to different use cases and environments."
     }
 ]
