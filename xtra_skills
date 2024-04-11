@@ -1,0 +1,56 @@
+    
+    {
+        "name": "jQuery",
+        "icon": "https://img.icons8.com/ios-filled/48/1169ae/jquery.png",
+        "description": "jQuery is a fast, small, and feature-rich JavaScript library designed to simplify client-side scripting. It provides a wide range of utilities and plugins for handling DOM manipulation, event handling, AJAX requests, and animation, making it easier to develop interactive web applications."
+    },
+    {
+        "name": "Git VCS",
+        "icon": "https://img.icons8.com/color/48/000000/git.png",
+        "description": "Git is a distributed version control system used for tracking changes in source code during software development. It allows multiple developers to collaborate on projects, manage revisions, and track changes over time, making it an essential tool for modern software development workflows."
+    },
+    {
+        "name": "Heroku",
+        "icon": "https://img.icons8.com/color/48/000000/heroku.png",
+        "description": "Heroku is a cloud platform as a service (PaaS) that enables developers to build, run, and scale applications in various programming languages. It provides a simple and flexible platform for deploying web applications without worrying about infrastructure management."
+    },
+    {
+        "name": "Netlify",
+        "icon": "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png",
+        "description": "Netlify is a cloud computing company that offers hosting and serverless backend services for static websites. It provides a platform for deploying, managing, and scaling web applications with features like continuous deployment, serverless functions, and global CDN."
+    },
+    {
+        "name": "MaterialUI",
+        "icon": "https://img.icons8.com/color/48/000000/material-ui.png",
+        "description": "Material-UI is a popular React UI framework based on Google's Material Design guidelines. It provides a set of customizable and responsive React components for building modern web applications with a consistent design language."
+    },
+    {
+        "name": "ChakraUI",
+        "icon": "https://img.icons8.com/color/48/000000/chakra-ui.png",
+        "description": "Chakra UI is a simple, modular, and accessible component library for React applications. It offers a wide range of customizable UI components and utilities to help developers build visually appealing and user-friendly web interfaces."
+    },
+    {
+        "name": "Bootstrap",
+        "icon": "https://img.icons8.com/color/48/000000/bootstrap.png",
+        "description": "Bootstrap is a popular front-end framework for building responsive and mobile-first websites. It provides a collection of CSS and JavaScript components, including buttons, forms, navigation, and more, to simplify the development process and ensure consistency across projects."
+    },
+    {
+        "name": "Sass",
+        "icon": "https://img.icons8.com/color/48/000000/sass.png",
+        "description": "Sass is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets (CSS). It extends CSS with features like variables, nesting, and mixins, allowing developers to write cleaner and more maintainable stylesheets."
+    },
+    {
+        "name": "Firebase",
+        "icon": "https://img.icons8.com/color/48/000000/firebase.png",
+        "description": "Firebase is a platform developed by Google for creating mobile and web applications. It provides a suite of services including authentication, real-time database, cloud messaging, and hosting, allowing developers to build feature-rich apps quickly."
+    },
+    {
+        "name": "TailwindCSS",
+        "icon": "https://img.icons8.com/color/48/tailwindcss.png",
+        "description": "Tailwind CSS is a utility-first CSS framework that provides a set of low-level utility classes to build custom designs without writing custom CSS. It allows developers to rapidly prototype and style their applications by composing utility classes directly in HTML."
+    },
+    {
+        "name": "Redux",
+        "icon": "https://img.icons8.com/color/48/000000/redux.png",
+        "description": "Redux is a predictable state container for JavaScript applications. It helps manage the state of an application in a single immutable state tree, making it easier to track changes and debug applications."
+    },

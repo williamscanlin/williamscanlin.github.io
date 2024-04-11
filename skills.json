@@ -1,28 +1,14 @@
 [
+    
     {
-        "name": "ReactJS",
-        "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png",
-        "description": "ReactJS is a JavaScript library for building user interfaces on websites. It's popular for creating dynamic and interactive web pages, making it easier for developers to manage complex UI components."
+        "name": "Kali Linux",
+        "icon": "https://img.icons8.com/plasticine/48/kali-linux.png",
+        "description": "Kali Linux is a Debian-based Linux distribution aimed at advanced penetration testing and security auditing. It comes pre-installed with numerous penetration testing tools and is widely used by cybersecurity professionals and enthusiasts."
     },
     {
-        "name": "ExpressJS",
-        "icon": "https://img.icons8.com/fluency/48/000000/node-js.png",
-        "description": "ExpressJS is a minimalist web application framework for Node.js. It simplifies the process of building web applications and APIs by providing a robust set of features and middleware."
-    },
-    {
-        "name": "NodeJS",
-        "icon": "https://img.icons8.com/color/48/000000/nodejs.png",
-        "description": "Node.js is a server-side JavaScript runtime environment that allows developers to build scalable and high-performance applications. It provides an event-driven architecture and a vast ecosystem of modules available through npm."
-    },
-    {
-        "name": "Redux",
-        "icon": "https://img.icons8.com/color/48/000000/redux.png",
-        "description": "Redux is a predictable state container for JavaScript applications. It helps manage the state of an application in a single immutable state tree, making it easier to track changes and debug applications."
-    },
-    {
-        "name": "Firebase",
-        "icon": "https://img.icons8.com/color/48/000000/firebase.png",
-        "description": "Firebase is a platform developed by Google for creating mobile and web applications. It provides a suite of services including authentication, real-time database, cloud messaging, and hosting, allowing developers to build feature-rich apps quickly."
+        "name": "Ubuntu",
+        "icon": "https://img.icons8.com/color/48/ubuntu--v1.png",
+        "description": "Ubuntu is a popular Linux distribution known for its user-friendly interface and stability. It is based on Debian and offers a wide range of software packages, making it suitable for both desktop and server environments."
     },
     {
         "name": "Android",
@@ -30,29 +16,19 @@
         "description": "Android is a mobile operating system developed by Google based on the Linux kernel. It is widely used for developing mobile applications and powers a large number of smartphones and tablets globally."
     },
     {
-        "name": "MaterialUI",
-        "icon": "https://img.icons8.com/color/48/000000/material-ui.png",
-        "description": "Material-UI is a popular React UI framework based on Google's Material Design guidelines. It provides a set of customizable and responsive React components for building modern web applications with a consistent design language."
+        "name": "Wireshark",
+        "icon": "https://img.icons8.com/nolan/48/wireshark--v1.png",
+        "description": "Wireshark is a network protocol analyzer used for network troubleshooting, analysis, development, and education. It allows users to capture and interactively browse the traffic running on a computer network."
     },
     {
-        "name": "ChakraUI",
-        "icon": "https://img.icons8.com/color/48/000000/chakra-ui.png",
-        "description": "Chakra UI is a simple, modular, and accessible component library for React applications. It offers a wide range of customizable UI components and utilities to help developers build visually appealing and user-friendly web interfaces."
+        "name": "VirtualBox",
+        "icon": "https://img.icons8.com/color/48/virtualbox.png",
+        "description": "VirtualBox is a powerful open-source virtualization software that enables users to run multiple operating systems simultaneously on a single physical machine. It is commonly used for testing, development, and virtualization."
     },
     {
-        "name": "TailwindCSS",
-        "icon": "https://img.icons8.com/color/48/tailwindcss.png",
-        "description": "Tailwind CSS is a utility-first CSS framework that provides a set of low-level utility classes to build custom designs without writing custom CSS. It allows developers to rapidly prototype and style their applications by composing utility classes directly in HTML."
-    },
-    {
-        "name": "Bootstrap",
-        "icon": "https://img.icons8.com/color/48/000000/bootstrap.png",
-        "description": "Bootstrap is a popular front-end framework for building responsive and mobile-first websites. It provides a collection of CSS and JavaScript components, including buttons, forms, navigation, and more, to simplify the development process and ensure consistency across projects."
-    },
-    {
-        "name": "Sass",
-        "icon": "https://img.icons8.com/color/48/000000/sass.png",
-        "description": "Sass is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets (CSS). It extends CSS with features like variables, nesting, and mixins, allowing developers to write cleaner and more maintainable stylesheets."
+        "name": "VMWare",
+        "icon": "https://img.icons8.com/fluency/48/old-vmware-logo.png",
+        "description": "VMWare is a leading provider of virtualization and cloud computing software and services. It offers a range of products for virtualization, including VMWare Workstation, VMWare Fusion, and VMWare vSphere, catering to different use cases and environments."
     },
     {
         "name": "HTML5",
@@ -68,6 +44,21 @@
         "name": "JavaScript",
         "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png",
         "description": "JavaScript is a programming language commonly used for creating interactive and dynamic websites. It is supported by all major web browsers and allows developers to add interactivity, manipulate DOM elements, and handle asynchronous events on web pages."
+    },
+    {
+        "name": "ReactJS",
+        "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png",
+        "description": "ReactJS is a JavaScript library for building user interfaces on websites. It's popular for creating dynamic and interactive web pages, making it easier for developers to manage complex UI components."
+    },
+    {
+        "name": "ExpressJS",
+        "icon": "https://img.icons8.com/fluency/48/000000/node-js.png",
+        "description": "ExpressJS is a minimalist web application framework for Node.js. It simplifies the process of building web applications and APIs by providing a robust set of features and middleware."
+    },
+    {
+        "name": "NodeJS",
+        "icon": "https://img.icons8.com/color/48/000000/nodejs.png",
+        "description": "Node.js is a server-side JavaScript runtime environment that allows developers to build scalable and high-performance applications. It provides an event-driven architecture and a vast ecosystem of modules available through npm."
     },
     {
         "name": "Java",
@@ -115,29 +106,9 @@
         "description": "Amazon Web Services (AWS) is a comprehensive cloud computing platform provided by Amazon. It offers a wide range of services including computing power, storage, databases, machine learning, and analytics, enabling businesses to build and scale applications with ease."
     },
     {
-        "name": "Heroku",
-        "icon": "https://img.icons8.com/color/48/000000/heroku.png",
-        "description": "Heroku is a cloud platform as a service (PaaS) that enables developers to build, run, and scale applications in various programming languages. It provides a simple and flexible platform for deploying web applications without worrying about infrastructure management."
-    },
-    {
-        "name": "Netlify",
-        "icon": "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png",
-        "description": "Netlify is a cloud computing company that offers hosting and serverless backend services for static websites. It provides a platform for deploying, managing, and scaling web applications with features like continuous deployment, serverless functions, and global CDN."
-    },
-    {
         "name": "DigitalOcean",
         "icon": "https://img.icons8.com/ios-filled/48/0080FF/digitalocean.png",
         "description": "DigitalOcean is a cloud infrastructure provider that offers cloud computing services to help developers deploy, manage, and scale applications. It provides virtual servers, managed databases, block storage, and Kubernetes clusters, making it easy to build and run applications in the cloud."
-    },
-    {
-        "name": "jQuery",
-        "icon": "https://img.icons8.com/ios-filled/48/1169ae/jquery.png",
-        "description": "jQuery is a fast, small, and feature-rich JavaScript library designed to simplify client-side scripting. It provides a wide range of utilities and plugins for handling DOM manipulation, event handling, AJAX requests, and animation, making it easier to develop interactive web applications."
-    },
-    {
-        "name": "Git VCS",
-        "icon": "https://img.icons8.com/color/48/000000/git.png",
-        "description": "Git is a distributed version control system used for tracking changes in source code during software development. It allows multiple developers to collaborate on projects, manage revisions, and track changes over time, making it an essential tool for modern software development workflows."
     },
     {
         "name": "GitHub",
@@ -148,30 +119,5 @@
         "name": "WordPress",
         "icon": "https://img.icons8.com/color/48/000000/wordpress.png",
         "description": "WordPress is a free and open-source content management system (CMS) based on PHP and MySQL. It is widely used for creating websites, blogs, and online stores due to its ease of use, flexibility, and extensive ecosystem of themes and plugins."
-    },
-    {
-        "name": "Kali Linux",
-        "icon": "https://img.icons8.com/plasticine/48/kali-linux.png",
-        "description": "Kali Linux is a Debian-based Linux distribution aimed at advanced penetration testing and security auditing. It comes pre-installed with numerous penetration testing tools and is widely used by cybersecurity professionals and enthusiasts."
-    },
-    {
-        "name": "Ubuntu",
-        "icon": "https://img.icons8.com/color/48/ubuntu--v1.png",
-        "description": "Ubuntu is a popular Linux distribution known for its user-friendly interface and stability. It is based on Debian and offers a wide range of software packages, making it suitable for both desktop and server environments."
-    },
-    {
-        "name": "Wireshark",
-        "icon": "https://img.icons8.com/nolan/48/wireshark--v1.png",
-        "description": "Wireshark is a network protocol analyzer used for network troubleshooting, analysis, development, and education. It allows users to capture and interactively browse the traffic running on a computer network."
-    },
-    {
-        "name": "VirtualBox",
-        "icon": "https://img.icons8.com/color/48/virtualbox.png",
-        "description": "VirtualBox is a powerful open-source virtualization software that enables users to run multiple operating systems simultaneously on a single physical machine. It is commonly used for testing, development, and virtualization."
-    },
-    {
-        "name": "VMWare",
-        "icon": "https://img.icons8.com/fluency/48/old-vmware-logo.png",
-        "description": "VMWare is a leading provider of virtualization and cloud computing software and services. It offers a range of products for virtualization, including VMWare Workstation, VMWare Fusion, and VMWare vSphere, catering to different use cases and environments."
     }
 ]
